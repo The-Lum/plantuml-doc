@@ -678,7 +678,7 @@ You can [read the following explanation](http://forum.plantuml.net/2427/salt-wit
 ```plantuml
 @startuml
 (*) --> "
-{{
+&#123;&#123;
 salt
 {+
 <b>an example
@@ -687,11 +687,11 @@ choose one option
 ()two
 [ok]
 }
-}}
+&#125;&#125;
 " as choose
 
 choose -right-> "
-{{
+&#123;&#123;
 salt
 {+
 <b>please wait
@@ -699,28 +699,28 @@ operation in progress
 <&clock>
 [cancel]
 }
-}}
+&#125;&#125;
 " as wait
 wait -right-> "
-{{
+&#123;&#123;
 salt
 {+
 <b>success
 congratulations!
 [ok]
 }
-}}
+&#125;&#125;
 " as success
 
 wait -down-> "
-{{
+&#123;&#123;
 salt
 {+
 <b>error
 failed, sorry
 [ok]
 }
-}}
+&#125;&#125;
 "
 @enduml
 ```
@@ -730,10 +730,10 @@ It can also be combined with [define macro](preprocessing#macro_definition).
 ```plantuml
 @startuml
 !unquoted procedure SALT($x)
-"{{
+"&#123;&#123;
 salt
 %invoke_procedure("_"+$x)
-}}" as $x
+&#125;&#125;" as $x
 !endprocedure
 
 !procedure _choose()
@@ -786,7 +786,7 @@ You can include `salt` on while condition of activity diagram.
 ```plantuml
 @startuml
 start
-while (\n{{\nsalt\n{+\nPassword | "****     "\n[Cancel] | [  OK   ]}\n}}\n) is (Incorrect)
+while (\n&#123;&#123;\nsalt\n{+\nPassword | "****     "\n[Cancel] | [  OK   ]}\n&#125;&#125;\n) is (Incorrect)
   :log attempt;
   :attempt_count++;
   if (attempt_count > 4) then (yes)
@@ -812,7 +812,7 @@ You can include `salt` on 'repeat while' condition of activity diagram.
 start
 repeat :read data;
   :generate diagrams;
-repeat while (\n{{\nsalt\n{^"Next step"\n  Do you want to continue? \n[Yes]|[No]\n}\n}}\n)
+repeat while (\n&#123;&#123;\nsalt\n{^"Next step"\n  Do you want to continue? \n[Yes]|[No]\n}\n&#125;&#125;\n)
 stop
 @enduml
 ```
