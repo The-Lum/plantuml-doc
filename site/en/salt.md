@@ -468,7 +468,8 @@ You can use [Creole or HTML Creole](creole) on salt:
 
 ```plantuml
 @startsalt
-{{^==Creole
+{
+{^==Creole
   This is **bold**
   This is //italics//
   This is ""monospaced""
@@ -538,7 +539,8 @@ Enjoy!
   ^This is a droplist^
   ^<color:#9a9a9a>This is a disabled droplist^
   ^<b><color:red>This is a red droplist^
-}}
+}
+}
 @endsalt
 ```
 
