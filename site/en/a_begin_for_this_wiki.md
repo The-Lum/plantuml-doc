@@ -62,14 +62,14 @@ The default header/footer (or StartTag/EndTag) are `@startuml`/`@enduml`.
 | [Activity-legacy](activity-diagram-legacy) [[#FF6600#deprecated]]|||||
 | [Archimate](archimate-diagram)|||||
 | [Business Process Modeling Notation (BPMN)](bpmn)||@startbpm|||
-| [Board or User Story Maps\n(🚧 *under construction*)](board-diagram)||@startboard||``{{board``|
+| [Board or User Story Maps\n(🚧 *under construction*)](board-diagram)||@startboard||``&#123;&#123;board``|
 | [Class](class-diagram)| [Class Issues](class-diagram-issues)||||
 | [Component](component-diagram)|[Deployment Issue](deployment-diagram-issues)||||
 | [Deployment](deployment-diagram)|[Deployment Issue](deployment-diagram-issues)||||
-| [Gantt project planning](gantt-diagram)||@startgantt||``{{gantt``|
+| [Gantt project planning](gantt-diagram)||@startgantt||``&#123;&#123;gantt``|
 | [Information Engineering (IE) / Entity Relationship (ER)](ie-diagram)|||||
-| [JSON\n(🆕 functionality)](json)|[JSON Issues](json-issues)|@startjson||``{{json``|
-| [MindMap](mindmap-diagram)||@startmindmap||``{{mindmap``|
+| [JSON\n(🆕 functionality)](json)|[JSON Issues](json-issues)|@startjson||``&#123;&#123;json``|
+| [MindMap](mindmap-diagram)||@startmindmap||``&#123;&#123;mindmap``|
 | [Network (nwdiag)](nwdiag)|[Network Issue](nwdiag-issues)|@startnwdiag|nwdiag {\n}||
 | [Object](object-diagram)|||||
 | [Problem diagram](problem-diagram)|||||
@@ -77,10 +77,10 @@ The default header/footer (or StartTag/EndTag) are `@startuml`/`@enduml`.
 | [State](state-diagram)|[State Issue](state-diagram-issues)||||
 | [Timing](timing-diagram)|||||
 | [Use-Case](use-case-diagram)|[Deployment Issue](deployment-diagram-issues)||||
-| [Work Breakdown Structure (WBS)](wbs-diagram)||@startwbs||``{{wbs``|
+| [Work Breakdown Structure (WBS)](wbs-diagram)||@startwbs||``&#123;&#123;wbs``|
 | [Wireframe (SALT)](salt) || @startsalt | salt\n{\n} ||
-| [Wire or Block Diagram\n(🆕 *beta version to test*)](wire-diagram) ||@startwire ||``{{wire [[#00CC00#Version 1.2021.01]]``|
-| [YAML\n(🆕 functionality)](yaml)||@startyaml||``{{yaml [[#00CC00#Version 1.2021.01]]``|
+| [Wire or Block Diagram\n(🆕 *beta version to test*)](wire-diagram) ||@startwire ||``&#123;&#123;wire [[#00CC00#Version 1.2021.01]]``|
+| [YAML\n(🆕 functionality)](yaml)||@startyaml||``&#123;&#123;yaml [[#00CC00#Version 1.2021.01]]``|
 
 ### Other Diagrams/Games
 
